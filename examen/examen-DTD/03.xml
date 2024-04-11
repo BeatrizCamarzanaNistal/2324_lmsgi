@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manual SYSTEM "03.dtd">
+<manual codigo="MAN01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="03.xsd"> 
+    <servicio>Apache</servicio>     <!--nombre del servicio-->
+    <descripcion>Este servicio HTTP Apache de código abierto, para plataformas Unix, Microsoft Windows...</descripcion>     <!--descripcion del servicio-->
+    <version>2.4</version>     <!--version del servidor q se va a instalar-->
+    <fecha_actualizacion>2024-03-12</fecha_actualizacion>     <!--fecha creacion manual-->
+    <requisitos_del_sistema>     <!--requisitos del sistema posibles-->
+        <sistema_operativo>Linux, Windows, MacOs</sistema_operativo>
+        <memoria_ram medida="GB" >2</memoria_ram>
+        <espacio_en_disco medida_disco="GB">100</espacio_en_disco> <!--valores:  MB|GB|TB|PB    -->
+        <puertos_disponibles>80</puertos_disponibles>     <!--entre 1 y 1024-->
+        <puertos_disponibles>443</puertos_disponibles>
+    </requisitos_del_sistema>
+    <otros_datos>
+        <url pagina="oficial">https://httpd.apache.org</url>    <!--valores: oficial, wiki, doc y repositorio--> 
+        <url pagina="wiki">https://es.wikipedia/Servidor/Apache</url> 
+    </otros_datos>
+    <pasos_de_instalacion>
+        <pasos>   <!--seria una lista de paso 1, paso2...-->
+            <comando><![CDATA[ sudo apt install apache2 ]]></comando>
+            <descripcion_instalaccion>Descargar e instalar paquete apache2</descripcion_instalaccion>
+        </pasos>
+        <pasos>
+            <comando><![CDATA[ sudo service apache2 status]]></comando>
+            <descripcion_instalaccion>Comprobar el esadp del servicio</descripcion_instalaccion>
+        </pasos>
+        <pasos>
+            <comando><![CDATA[ sudo ufw allow apache2]]></comando>
+            <descripcion_instalaccion>Abrir el cortafuegos del puerto 80 y 443</descripcion_instalaccion>
+        </pasos>
+    </pasos_de_instalacion>
+</manual>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="manual">
+        <xs:complexType> <!---->
+        <xs:attribute name="codigo" type="xs:string"/>
+            <xs:sequence>
+                <xs:element name="servicio" type="xs:string"/>
+                <xs:element name="descripcion" type="xs:string"/>
+                <xs:element name="version" type="versionTipo"/>
+                <xs:element name="fecha_actualizacion" type="xs:string"/>
+                <xs:element name="requisitos_del_sistema">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sistema_operativo" type="xs:string"/>
+                            <xs:element name="servicio" type="xs:string"/>
+                            <xs:element name="memoria_ram" maxOccurs="unbounded">
+                                <xs:complexType>
+                                        <xs:attribute name="medida">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:maxInclusive value="1"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="espacio_en_disco" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="medida_disco" type="xs:string" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="puertos_disponibles" type="xs:string" >
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:int">
+                                        <xs:minInclusive value="1"/>
+                                        <xs:maxExclusive value="1024"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                                </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="otros_datos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="url">
+                                <xs:complexType>
+                                    <xs:attribute name="pagina" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="pasos_de_instalacion" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="pasos" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="comando" type="xs:string"/>
+                                        <xs:element name="descripcion_instalaccion" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,22 @@
+/*body*/
+body{
+    text-decoration: none;
+}
+/*header*/
+h1{
+    background-image: url("../media/images/Picto_infobox_cinema.png");
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+/*navegador*/
+nav{
+    background-color: gray;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}

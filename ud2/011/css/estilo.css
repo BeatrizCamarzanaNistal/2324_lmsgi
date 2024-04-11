@@ -1,0 +1,116 @@
+﻿/* 
+    Created on : 
+    Author     : Amor Rodríguez <amor at marodriguezn@educa.jcyl.es>
+*/
+/*EN GENERAL*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 1024px;
+    margin: 0 auto; /*centrado en la pagina*/
+    background-image: url(../images/le_petit_prince.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 300px;
+    background-attachment: fixed; /*queda fijo cuando haces scroll hacia abajo*/
+}
+/*TITULOS*/
+header, h1{
+    background-color: orange;
+    color: red;
+    font-variant: small-caps;
+}
+/*TITULOS INDIVIDUALES*/
+.par1{
+    background-color: lightblue;
+    color: darkgreen;
+    margin: 9px 0px;
+}
+.static{
+    border-color: lightsalmon;
+    border-width: 3px;
+    border-style: solid;
+    padding: 9px;
+}
+.relative{
+    border: 3px dotted fuchsia;
+    padding: 9px;
+    position: relative;
+    left: 6em;
+}
+.fixed{
+    border: 3px dashed greenyellow;
+    background-color: lightcoral;
+    padding: 6px;
+    position: fixed; /*queda fijo cuando haces scroll hacia abajo*/
+    bottom: 60px;
+    left: 82%;
+}
+.relative1{
+    border: 3px solid darkgreen;
+    padding: 9px;
+    position: relative;
+    width: 500px;
+    height: 150px;
+}
+.absolute1{
+    border: 3px solid green;
+    padding: 9px;
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    left: 9px;
+}
+.img1{
+    position: absolute;
+    left: 6px;
+    width: 30%;
+    z-index: -1; /*para dare valores negaivos, o logo...*/
+    opacity: 0.5;
+}
+.sticky{
+    background-color: darkgreen;
+    color: lightgreen;
+    border: 3px solid lightgreen;
+    border-radius: 15px;
+    padding: 9px;
+    text-align: center;
+    position: sticky; /*queda fijo cuando haces scroll hacia abajo*/
+    top: 0px;
+}
+.conteiner{
+    border: 3px solid purple;
+}
+.topleft, .topright, .bottomleft, .bottomright, center{
+    font-variant: small-caps;
+    border: 3px solid purple;
+    background-color: orangered;
+    color: purple;
+    padding: 9px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+}
+.topleft{
+    top: 100%;
+    right: 100%;
+}
+.topright{
+    position: absolute;
+    top: 3px;
+    left:92px;
+}
+.bottomright{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+}
+.bottomleft{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}

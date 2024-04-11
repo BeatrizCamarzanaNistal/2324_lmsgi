@@ -1,0 +1,13 @@
+
+<!ELEMENT company (employee)>
+    <!ELEMENT employee (FirstName*, LastName*, ContacNo*, Email*, Address*)>
+    <!ELEMENT FirstName (#PCDATA)>
+    <!ELEMENT LastName (#PCDATA)>
+    <!ELEMENT ContacNo (#PCDATA)>
+    <!ELEMENT Email (#PCDATA)>
+    <!ELEMENT Address (City, State, Zip)>
+        <!ELEMENT City (#PCDATA)>
+        <!ELEMENT State (#PCDATA)>
+        <!ELEMENT Zip (#PCDATA)>
+        <!ATTLIST company xmlns:xsi CDATA #IMPLIED >
+        <!ATTLIST company xsi:noNamespaceSchemaLocation CDATA #IMPLIED >

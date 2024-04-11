@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Beatriz Camarzana-LMSGI</title>
+        <link> https://daw107.ieslossauces.es</link>
+        <description>Enlaces página daw1</description>
+        <lenguage>es-es</lenguage>
+        <item>
+            <title>Xpath-1</title>
+            <link>https://daw107.ieslossauces.es/ud5/01/01.html</link>
+            <description><![CDATA[ De las actividades obtener (lo de acontinuación). ]]>
+            </description>
+            <pubdate>Frid, 18 Mar 2024 10:00:00 +0100</pubdate>
+        </item>
+        <item>
+            <title>Xpath-2</title>
+            <link>https://daw107.ieslossauces.es/ud5/02/02.html</link>
+            <description><![CDATA[ Realización de las actividades según ]]>
+            </description>
+            <pubdate>Mon, 18 Mar 2024 10:00:00 +0100</pubdate>
+        </item>
+        <item>
+            <title>Xpath-3</title>
+            <link>https://daw107.ieslossauces.es/ud5/03/03.html</link>
+            <description><![CDATA[ Ejercicios de la universidad ]]>
+            </description>
+            <pubdate>Mon, 18 Mar 2024 10:00:00 +0100</pubdate>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,25 @@
+input[required]{
+    border: 1px solid #57C0C0;
+}
+*{
+    color:#FFDF78;
+}
+html{
+    background-color:#2A3062;
+}
+input[type=text], input[type=url],input[type=password], input[type=date], input[type=textarea], input[type=email]{
+    background-color: #A19C8C;
+}
+label{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#nom{
+    width: 200px;
+}
+input[type=checkbox]{
+    width: 25px;
+}
+input[type=date], input[type=week], input[type=month]{
+    width: 145px;
+}

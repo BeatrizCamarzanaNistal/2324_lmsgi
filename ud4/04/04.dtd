@@ -1,0 +1,18 @@
+<!ELEMENT curriculum (nombre+, fecha, residencia, datos)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT residencia (ciudad, pais)>
+        <!ELEMENT ciudad (#PCDATA)>
+        <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT datos (telefono?, correo?, linkedln?, descripcion*, habilidad*, estudios*, experiencia*)> 
+    <!--       + -> 1 o mas, * -> 0 o mas, ? -> 0 o 1      -->
+        <!ELEMENT telefono (#PCDATA)>
+        <!ELEMENT correo (#PCDATA)>
+        <!ELEMENT linkedln (#PCDATA)>
+        <!ELEMENT descripcion (#PCDATA)>
+        <!ELEMENT habilidad (#PCDATA)>
+        <!ELEMENT estudios (#PCDATA)>
+        <!ELEMENT experiencia (#PCDATA)>
+        <!ATTLIST curriculum xmlns:xsi CDATA #IMPLIED >
+        <!ATTLIST curriculum xsi:noNamespaceSchemaLocation CDATA #IMPLIED >

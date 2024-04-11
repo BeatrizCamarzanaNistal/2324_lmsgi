@@ -1,0 +1,29 @@
+[2:14] BEATRIZ CAMARZANA NISTAL
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Beatriz Camarzana-Practicas</title>
+        <description>Últimas prácticas realizadas en la primera evaluación</description>
+        <item>
+            <title>Práctica 09 (css a formulario)</title>
+            <description><![CDATA[ <p><i>EL objetivo a seguir en esta practica era que dado el formulario ya realizado con html,</i></p>
+            <p><i>darle formato y estilo con css seguidas las pautas impuestas</i></p>]]></description>
+            <enclosure length="1" type="image/jpeg">
+            <pubdate>Mon, 11 Dec 2023 12:00:00 +0100</pubdate>
+        </item>
+        <item>
+            <title>Práctica 10 (css a práctica de horario)</title>
+            <description><![CDATA[ <p><i>Esta practica era voluntaria, el objetivo a seguir era dado el formulario ya creado</i></p>
+            <p><i>de la práctica 03, darle formato con css</i></p>]]></description>
+            <enclosure length="1" type="image/jpeg">
+            <pubdate>Mon, 18 Dec 2023 13:00:00 +0100</pubdate>
+        </item>
+        <item>
+            <title>Práctica 11 (principito)</title>
+            <description><![CDATA[ <p><i>En esta practica se buscaba el aprendizaje del uso del flex, los posicionamientos </i></p>
+            <p><i>y las imágenes en css</i></p>]]></description>
+            <enclosure length="1" type="image/jpeg">
+            <pubdate>Mon, 19 Dec 2023 11:30:00 +0100</pubdate>
+        </item>
+    </channel>
+</rss>

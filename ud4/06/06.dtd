@@ -1,0 +1,7 @@
+
+<!ELEMENT ejemplo (codigo+)>
+<!ELEMENT codigo (lenguaje+, contenido*)>
+    <!ELEMENT lenguaje (#PCDATA)>
+    <!ELEMENT contenido (#PCDATA)>
+    <!ATTLIST ejemplo xmlns:xsi CDATA #IMPLIED >
+    <!ATTLIST ejemplo xsi:noNamespaceSchemaLocation CDATA #IMPLIED >

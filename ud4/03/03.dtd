@@ -1,0 +1,4 @@
+
+<!ELEMENT tabla (hecho+)>
+<!ELEMENT hecho (columna+)>
+<!ELEMENT columna (#PCDATA)>

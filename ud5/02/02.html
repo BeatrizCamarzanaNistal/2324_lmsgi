@@ -1,0 +1,102 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>ud5-XPath. Beatriz Camarzana</title>
+        <link rel="stylesheet" href="../estilos.css" type="text/css">
+        <link rel="icon" type="images/favicon-icon" href="webroot/media/images/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <h1>ud5-XPath</h1>
+            <h2>Hoja 2.-Ejercicio 2</h2>
+        </header>
+        <main>
+            <div class="contenedor">
+                <a href="02.xml" >Datos-XML </a>
+                <a href="02.dtd">DTD </a>
+                <a href="02.xsd">XSCHEMA </a>
+            </div>
+            <div>
+                Tomando de referencia el schema y el xml de gimnasio
+            </div>
+            <!--esto para todos igual-->
+            <ol>
+                <li>Los elementos de cada coche
+                    <code>/garaje/coches/coche</code>
+                    <div>Resultado <img  src="images/01.png"></div>
+                </li>
+                <li>Los elementos de cada reparación
+                    <code>/garaje/reparaciones/reparacion</code>
+                    <div>Resultado <img  src="images/02.png"></div>
+                </li>
+                <li>El contenido de la matricula de los coches
+                    <code>/garaje/coches/coche/matricula/text()</code>
+                    <div>Resultado <img  src="images/03.png"></div>
+                </li>
+                <li>Todos los nodos(elementos y contenido) de la marca Renault
+                    <code>/garaje/coches/coche[marca="Renault"]/*</code>
+                    <div>Resultado <img  src="images/04.png"></div>
+                </li>
+                <li>Todos los nodos de los coches de mas de 200000 km
+                    <code>/garaje/coches/coche[km>200000]/*</code>
+                    <div>Resultado <img  src="images/05.png"></div>
+                </li>
+                <li>El contenido del color del coche de matricula 1234C
+                    <code>/garaje/coches/coche[matricula="1234C"]/color/text()</code>
+                    <div>Resultado <img  src="images/06.png"></div>
+                </li>
+                <li>El contenido de la decripcion de las reparaciones realizadas al coche de matricula 4444B
+                    <code>/garaje/reparaciones/reparacion[matricula="4444B"]/descripcion/text()</code>
+                    <div>Resultado <img  src="images/07.png"></div>
+                </li>
+                <li>El contenido de la descripcion de la reparacion del codigo J0005
+                    <code>/garaje/reparaciones/reparacion[@codigo="J0005"]/descripcion/text()</code>
+                    <div>Resultado <img  src="images/08.png"></div>
+                </li>
+                <li>Suma de las horas invertidas reparando coches
+                    <code>sum(//reparaciones/reparacion/horas)</code>
+                    <div>Resultado <img  src="images/09.png"></div>
+                </li>
+                <li>Número de coches en el documento
+                    <code>count(//coches/coche)</code>
+                    <div>Resultado <img  src="images/10.png"></div>
+                </li>
+                <li>Selecciona todos los elementos del primer coche
+                    <code>//coche[1]/*</code>
+                    <div>Resultado <img  src="images/11.PNG"></div>
+                </li>
+                <li>Selecciona todos los elementos de la última reparación
+                    <code>//reparacion[last()]/*</code>
+                    <div>Resultado <img  src="images/12.PNG"></div>
+                </li>
+                <li>Selecciona todos los elementos del coche de la marca Seat con color rojo
+                    <code>//coche[marca='Seat' and color='Rojo']/*</code>
+                    <div>Resultado <img  src="images/13.PNG"></div>
+                </li>
+                <li>Propietario del coche modelo Polo 1.2 Advance
+                    <code></code>
+                    <div>Resultado <img  src="images/14.PNG"></div>
+                </li>
+                <li>Contendio de la descripción de las reparaciones con fecha de entrada 2013/06/06
+                    <code>//reparacion[fecha_entrada='2013/06/06']/descripcion/text()</code>
+                    <div>Resultado <img  src="images/15.PNG"></div>
+                </li>
+                <li>Seleccionar los coches rojos y grises
+                    <code>//coche[color='Gris' or color='Rojo']/node()</code>
+                    <div>Resultado <img  src="images/16.PNG"></div>
+                </li>
+
+                
+                <li>Contendio de la descripción de las reparaciones con fecha de entrada 2013/06/06
+                    <code></code>
+                    <div>Resultado <img  src="images/20.PNG"></div>
+                </li>
+                <li>Contendio de la descripción de las reparaciones con fecha de entrada 2013/06/06
+                    <code></code>
+                    <div>Resultado <img  src="images/21.PNG"></div>
+                </li>
+            </ol>
+        </main>
+    </body>
+</html>

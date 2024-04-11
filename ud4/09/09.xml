@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE textos SYSTEM "09.dtd">
+<textos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="09.xsd">
+    <texto>
+        El quijote fue escrito por Miguel de Cervantes
+    </texto>
+    <texto>
+        Miguel de Cervantes nacio el 29/09/1547
+    </texto>
+</textos>

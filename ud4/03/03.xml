@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tabla SYSTEM "03.dtd">
+<tabla>
+    <hecho>
+        <columna>Descripcion</columna>
+        <columna>Fecha</columna>
+    </hecho>
+    <hecho>
+        <columna></columna>
+        <columna>Día</columna>
+        <columna>Mes</columna>
+        <columna>Anyo</columna>
+    </hecho>
+    <hecho>
+        <columna>Se funda Youtube</columna>
+        <columna>15</columna>
+        <columna>2</columna>
+        <columna>2005</columna>
+    </hecho>
+    <fila>
+        <columna>Se funda Google</columna>
+        <columna>4</columna>
+        <columna>9</columna>
+        <columna>2</columna>
+    </fila>
+</tabla>

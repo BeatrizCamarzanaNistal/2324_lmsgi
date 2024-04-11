@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE curriculum SYSTEM "04.dtd">
+<curriculum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="04.xsd">
+    <nombre>Beatriz Camarzana</nombre>
+    <fecha>2005</fecha>
+    <residencia>
+        <ciudad>Zamora</ciudad>
+        <pais>Spain</pais>
+    </residencia>
+    <datos>
+        <telefono>638291920</telefono>
+        <correo>beatriz@gmail.com</correo>
+        <linkedln>beatriz_05</linkedln>
+        <descripcion>Entusiasta y trabajadora. Con ganas de aprender</descripcion>
+        <habilidad>Ingles: B1</habilidad>
+        <estudios>ESO, BACH tecnologico</estudios>
+        <experiencia>8 meses. Hosteleria</experiencia>
+    </datos>
+</curriculum>

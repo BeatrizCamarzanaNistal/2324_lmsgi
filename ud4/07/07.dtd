@@ -1,0 +1,8 @@
+<!ELEMENT grupo (estudiante*)>
+    <!ELEMENT estudiante (nombre)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST estudiante codigo_estudiante ID #REQUIRED>
+    <!-- IDREFS en plural tiene varios valores -->
+    <!ATTLIST estudiante codigo_tutor IDREFS #IMPLIED>
+    <!ATTLIST grupo xmlns:xsi CDATA #IMPLIED >
+    <!ATTLIST grupo xsi:noNamespaceSchemaLocation CDATA #IMPLIED >

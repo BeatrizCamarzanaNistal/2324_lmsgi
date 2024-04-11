@@ -1,0 +1,12 @@
+<!ELEMENT actividades (actividad+)>
+    <!ELEMENT actividad (codigo+, titulo+, fecha_inicio+, sesiones+)>
+        <!--atributo de tipo nivel-->
+        <!ATTLIST actividad nivel (infantil|adultos) ID #REQUIRED>
+        <!ELEMENT nivel (#PCDATA)>
+        <!ELEMENT codigo (#PCDATA)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT fecha_inicio (#PCDATA)>
+        <!ELEMENT sesiones (minutos_sesion, sesiones_semana)>
+            <!ATTLIST sesiones intensidad (fuerte|suave|moderada) ID #IMPLIED>
+            <!ELEMENT minutos_sesion (#PCDATA)>
+            <!ELEMENT sesiones_semana (#PCDATA)>

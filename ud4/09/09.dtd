@@ -1,0 +1,7 @@
+<!ENTITY escritor "Miguel de Cervantes">
+    <!ENTITY escritor "Miguel de Cervantes">
+    <!ENTITY escritor "Miguel de Cervantes">
+    <!ELEMENT textos (texto)+>
+    <!ELEMENT texto (#PCDATA)>
+    <!ATTLIST lugares xmlns:xsi CDATA #IMPLIED >
+    <!ATTLIST lugares xsi:noNamespaceSchemaLocation CDATA #IMPLIED >

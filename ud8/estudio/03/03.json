@@ -1,0 +1,44 @@
+{
+    "horario":{
+        "curso":"2023/24",
+        "modulos":{
+            "modulo":[
+                {
+                 "sigla":"EDD",
+                 "nombre":"Entornos de desarrollo",
+                  "profesor":"Victor Carrión Pesquera"
+                },
+                {
+                 "sigla":"LMSGI",
+                 "nombre":"Lenguaje de Marcas y Sistemas de Gestion de la Información",
+                  "profesor":"Amor Rodríguez Navarro"
+                },
+                {
+                 "sigla":"PROG",
+                 "nombre":"Programación",
+                  "profesor":"Ambrosio Casado Fernández"
+                },
+                {
+                 "sigla":"BBDD",
+                 "nombre":"Bases de Datos",
+                  "profesor":"Hermelinda Ramos Osorio"
+                },
+                {
+                 "sigla":"FOL",
+                 "nombre":"Formación y Orientación Laboral",
+                  "profesor":"Dimitrios Athanatiadis Fotinias"
+                },
+                {
+                 "sigla":"SINF",
+                 "nombre":"Sistemas de Información",
+                  "profesor":"manuel Cuesta Prieto"
+                }
+            ]
+        },
+        "dia":[
+            {
+                "dia_sem":"BBDD"
+            }
+        ]
+    }
+}

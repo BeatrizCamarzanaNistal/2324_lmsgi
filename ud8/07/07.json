@@ -1,0 +1,30 @@
+{
+    "aplicacion":{
+        "usuario":[
+            {
+                "usuario1":{
+                    "color_primer_plano":"Azul Claro",
+                    "color_fondo":"Gris",
+                    "tipo_fuente":"Arial",
+                    "tamanioFuente":11,
+                    "negrita":true,
+                    "cursiva":true,
+                    "subrayado":false,
+                    "idioma":"ISO 639-1"
+                }
+            },
+            {
+                "usuario2":{
+                    "color_primer_plano":"Morado",
+                    "color_fondo":"negro",
+                    "tipo_fuente":"Arial",
+                    "tamanioFuente":14,
+                    "negrita":false,
+                    "cursiva":true,
+                    "subrayado":true,
+                    "idioma":"ISO 639-1"
+                }
+            }
+        ]
+    }
+}

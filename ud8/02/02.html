@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <main>
+            <p id="item"></p>
+            <p id="item2"></p>
+            <p id="item3"></p>
+            <p id="item4"></p>
+            <!--los scrip se puden escriir tanto en el head como en el body-->
+            <script>
+                let cadenaJson = '[{"nombre":"Javascript","anyo":1995,"nombreAutores":["Fundacion Mozilla"],"compilado":false},{"nombre":"Java","anyo":1995,"nombreAutores":["James Gosling"],"compilado":true},{"nombre":"Python","anyo":1989,"nombreAutores":["Guido van Rossum"],"compilado":true},{"nombre":"C++","anyo":1980,"nombreAutores":["Bjarne Stroustrup"],"compilado":true}]'
+                let objetoJson = JSON.parse(cadenaJson);
+                document.getElementById("item").innerHTML=objetoJson[0].nombre + " " + objetoJson[0].anyo;
+                document.getElementById("item2").innerHTML=objetoJson[1].nombre + " " + objetoJson[1].anyo;
+                document.getElementById("item3").innerHTML=objetoJson[2].nombre + " " + objetoJson[2].anyo;
+                document.getElementById("item4").innerHTML=objetoJson[3].nombre + " " + objetoJson[3].anyo;
+            </script>
+        </main>
+    </body>
+</html>
+

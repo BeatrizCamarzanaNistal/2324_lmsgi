@@ -1,0 +1,49 @@
+{
+    "nombre_equipo":"La lakera",
+    "color_equipacion":"amarillo",
+    "nombre_estadio":"Crypto.com Arena",
+    "nombre_entrenador":"Frank Vogel",
+    "historica":false,
+    "url":"",
+    "jugadores":[
+        {
+            "base":[
+                {
+                    "nombre":"Spacer Dimidler",
+                    "dorsal":26
+                },
+                {
+                    "nombre":"J.Hood-Schifi",
+                    "dorsal":0
+                }],
+            "alero":[
+                {
+                    "nombre":"Lebron James",
+                    "dorsal":23
+                },
+                {
+                    "nombre":"Cam reddish",
+                    "dorsal":5
+                },
+                {
+                    "nombre":"Maxhell Lewis",
+                    "dorsal":21
+                }],
+            "pivote":[
+                {
+                    "nombre":"Anthony Davis",
+                    "dorsal":3
+                },
+                {
+                    "nombre":"Harry Giles",
+                    "dorsal":20
+                },
+                {
+                    "nombre":"Colin Castleton",
+                    "dorsal":14
+                }
+            ]
+        }
+    ]
+    
+}

@@ -1,0 +1,6 @@
+<!ELEMENT edificio (vivienda+)>
+    <!ELEMENT vivienda (piso?, puerta?, vecinos)>
+        <!ELEMENT piso (#PCDATA)>
+        <!ELEMENT puerta (#PCDATA)>
+        <!ELEMENT vecinos (nombre*)>
+            <!ELEMENT nombre (#PCDATA)>

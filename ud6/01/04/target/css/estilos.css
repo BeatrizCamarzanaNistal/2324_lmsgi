@@ -1,0 +1,32 @@
+/*reseteamos*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*body*/
+body{
+    width: 1024px;
+    margin: 2% auto;
+}
+/*tabla*/
+table{
+    width: 100%;
+    border-collapse: collapse;  /*para que las lineas de la tabla queden juntas*/
+}
+td, th{
+    height: 1.2em;
+    border: 1px solid grey;
+    padding: 5px;
+}
+.negrita{
+    font-weight: bold;  /*para poner en negrita*/
+}
+/*subtabla*/
+.subtabla{
+    margin-top: 0.5%;
+    color: black;
+}
+/*tfooter*/
+.tfooter{
+    text-align: end;
+}

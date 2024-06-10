@@ -1,0 +1,28 @@
+/*tamaño body*/
+body{
+    margin: 0% 5%;
+}
+/*fieldset*/
+form{
+    background-color: lightgray;
+    padding: 1% 1.5%;
+    border: 1px solid grey;
+}
+/*form*/
+fieldset{
+    background-color: white;
+    margin: 0%;
+}
+label {
+    border: 2px grey dotted;
+    display: block;
+}
+/*p, enunciado*/
+p{
+    font-weight: bold;
+}
+/*botones*/
+.botones{
+    text-align: center;
+    border: none;
+}

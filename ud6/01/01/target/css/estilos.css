@@ -1,0 +1,55 @@
+/*colores*/
+:root { 
+    --color1: #283370 ; /*color del fondo*/ 
+    --color2: #9da7db ; /*color del texto*/ 
+    --color3:  black ;   /*zz*/
+} 
+/*general*/
+*{ 
+    margin:0px; 
+    font-family: Blinker-Light, Arial, sans-serif; 
+}
+/*body*/
+body{
+    margin: 2% auto;
+    width: 1024px;
+}
+/*h1*/
+h1{
+    background-color:var(--color1);
+    color:var(--color2);
+    text-align: center;
+    padding: 1%;
+    height: 20%;
+}
+/*main*/
+main{
+    margin: 1% 0 1% 0;
+}
+/*p*/
+main>p{
+    background-color:var(--color2);
+    color:var(--color1);
+    padding: 0.5%;
+    font-weight: bold;
+}
+div>p{
+    background-color:var(--color2);
+    color:var(--color1);
+    padding: 0%;
+    font-weight: bold;
+    text-align: center;
+}
+/*lista*/
+ul{
+    background-color:#5c6cc4;
+    color:var(--color1);
+    margin: 0 0 1% 0;
+}
+/*footer*/
+footer{
+    text-align: center;
+    background-color:var(--color1);
+    color:var(--color2);
+    padding: 1%;
+}

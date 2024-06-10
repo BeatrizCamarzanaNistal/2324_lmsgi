@@ -1,0 +1,61 @@
+/*colores*/
+:root{
+    --color1: #4F86D9;  /*azul, h1*/
+    --color2: #95B6E9;  /*color tabla*/
+    --color3: #345A8E;  /*color temperatura, azul*/
+    --color4: #F00;     /*color temperatura, rojo*/
+    --color5: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*h1, header*/
+h1{
+    color:var(--color1);
+    text-align: center;
+    margin:1%;
+}
+h2{
+    color: var(--color5);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1%;
+    letter-spacing: 2px;
+}
+/*main*/
+main{
+    width: 1024px;
+    background-color:var(--color1); 
+    padding: 3px;
+    margin: 0 23%;
+}
+/*tabla*/
+table,td, tr{
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    width: 1024px;
+}
+thead{
+    color: var(--color5);
+    background-color:var(--color2); 
+    padding: 1px;
+}
+table{
+    border:1px solid var(--color2);
+    background-color: var(--color5);
+    width: 1000px;
+    padding: 0;
+    margin: 8px;
+}
+td{
+    border-bottom: 1px solid var(--color2);
+}
+/*class*/
+.minimo{
+    color: var(--color4);
+}
+.maximo{
+    color: var(--color3);
+}

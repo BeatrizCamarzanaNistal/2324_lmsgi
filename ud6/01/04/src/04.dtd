@@ -1,0 +1,16 @@
+<!ELEMENT factura (datos_emisor?, datos_receptor?, datos_factura?)>
+    <!ATTLIST factura n_factura ID #REQUIRED>
+    <!ELEMENT datos_emisor (nombre?, dir?, poblacion?, provincia?, cif?, telefono?)> 
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT dir (#PCDATA)>
+        <!ELEMENT poblacion (#PCDATA)>
+            <!ATTLIST poblacion cod_postal CDATA/>
+        <!ELEMENT provincia (#PCDATA)>
+        <!ELEMENT cif (#PCDATA)>
+        <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT datos_receptor (nombre?, dir_env?, poblacion?, provincia?)>
+        <!ATTLIST datos_receptor n_cli ID #REQUIRED>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT dir_env (#PCDATA)>
+        <!ELEMENT poblacion (#PCDATA)>
+            <!ATTLIST poblacion cod_postal CDATA/>

@@ -1,0 +1,67 @@
+/*colores*/
+:root {
+    --color1: #066F22 ;
+    --color2: #ADC4B3 ;
+    --color3:  #8DE449;
+}
+*{
+    font-family: Blinker-Light, Arial, sans-serif;
+    font-size: medium;
+    /*tamaño de fuente de la tabla
+        font-size: smaller | larger
+    */
+    margin: 1%;
+    padding: 0%;
+}
+/*header de la pagina*/
+body{
+    width: 1420px;
+    margin: 2% 12%;
+}
+header{
+    background-color: var(--color2);
+    padding: 5px;
+    color: var(--color1);
+    margin: 2% 0%;
+}
+h1{
+    margin: 0% 0.5%;
+    font-size: x-large;
+}
+/*h2 y h3*/
+h2{
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 1%;
+    margin: 1% 0%; /*para que quede ajustado al borde*/
+    font-size: large;
+}
+h3{
+    color: var(--color1);
+    border: 2px solid var(--color3);
+    padding: 5px;
+    margin: 2% 0%;
+}
+/*tablas*/
+table{
+    text-align: center;
+    width: 92%;
+    margin: auto;
+}
+th, td{
+    border-bottom: 2px solid var(--color2);
+    border-collapse: collapse;
+}
+caption{
+    color: var(--color1);
+    font-weight: bolder;
+    font-style: italic;
+}
+/*footer*/
+footer{
+    background-color: var(--color1);
+    text-align: end;
+    color: var(--color2);
+    padding: 5px;
+}
+

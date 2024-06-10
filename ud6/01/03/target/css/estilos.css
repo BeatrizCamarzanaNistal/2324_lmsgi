@@ -1,0 +1,53 @@
+/*general*/
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+/*nav*/
+ul{
+    display: flex;
+}
+li{
+    background-color: grey;
+    padding: 2%;
+    margin: 0.5% 1% 0.5% 1%;
+    padding: 1% 2% 1% 2%;
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/*body*/
+body{
+    width: 1024px;
+    margin: 0 auto;
+}
+/*titulos*/
+h1, h2{
+    text-align: center;
+    margin: 2% 0%;
+}
+h3{
+    text-align: start;
+}
+/*table*/
+table{
+    
+    width: 100%;
+}
+table, th, tr, td{
+    border: 1px solid black;
+    padding: 2%;
+    border-collapse: collapse; 
+}
+thead, tfoot{
+    background-color: grey;
+    color: white;
+    padding: 1%;
+}
+tbody{
+    background-color: lightyellow;
+    padding: 1%;
+}

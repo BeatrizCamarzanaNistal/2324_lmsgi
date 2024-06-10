@@ -6,25 +6,58 @@
         <description>Enlaces página daw1</description>
         <lenguage>es-es</lenguage>
         <item>
-            <title>Xpath-1</title>
-            <link>https://daw107.ieslossauces.es/ud5/01/01.html</link>
-            <description><![CDATA[ De las actividades obtener (lo de acontinuación). ]]>
+            <title>Unidad-2</title>
+            <link>https://daw107.ieslossauces.es/ud2/08/index.html</link>
+            <description>
+                <![CDATA[ Crear una página web con formato (css) de un ejercicio previamente ya realizado ]]>
             </description>
-            <pubdate>Frid, 18 Mar 2024 10:00:00 +0100</pubdate>
+            <pubdate>Mon, 9 Jun 2024 8:00:00 +0100</pubdate>
         </item>
         <item>
-            <title>Xpath-2</title>
+            <title>Unidad-3</title>
+            <link>https://daw107.ieslossauces.es/ud3/01/01.xml</link>
+            <description><![CDATA[ RSS del país ]]>
+            </description>
+            <pubdate>Mon, 9 Jun 2024 8:30:00 +0100</pubdate>
+        </item>
+        <item>
+            <title>Unidad-4</title>
+            <link>https://daw107.ieslossauces.es/ud4/04/04.xml</link>
+            <description>
+                <![CDATA[ Generear el dtd, el xml y el esquema (Schema) del cuarto ejercicio de esta unidad .  ]]>
+            </description>
+            <pubdate>Mon, 9 Jun 2024 9:00:00 +0100</pubdate>
+        </item>
+        <item>
+            <title>Unidad-5</title>
             <link>https://daw107.ieslossauces.es/ud5/02/02.html</link>
-            <description><![CDATA[ Realización de las actividades según ]]>
+            <description><![CDATA[ Segundo ejercicio de la unidad de XPATH ]]>
             </description>
-            <pubdate>Mon, 18 Mar 2024 10:00:00 +0100</pubdate>
+            <pubdate>Mon, 10 Jun 2024 09:40:00 +0100</pubdate>
         </item>
         <item>
-            <title>Xpath-3</title>
-            <link>https://daw107.ieslossauces.es/ud5/03/03.html</link>
-            <description><![CDATA[ Ejercicios de la universidad ]]>
+            <title>Unidad-6</title>
+            <link>https://daw107.ieslossauces.es/ud6/06/target/06.html</link>
+            <description>
+                <![CDATA[ Transformar un xml a html con la ayuda del lenguaje xslt (ejercicio 6) ]]>
             </description>
-            <pubdate>Mon, 18 Mar 2024 10:00:00 +0100</pubdate>
+            <pubdate>Mon, 10 Jun 2024 09:55:00 +0100</pubdate>
+        </item>
+        <item>
+            <title>Unidad-7</title>
+            <link>https://daw107.ieslossauces.es/ud7/01/target/01.html</link>
+            <description>
+                <![CDATA[ realizar los ejercicios de xquery con el xml ]]>
+            </description>
+            <pubdate>Mon, 10 Jun 2024 10:00:00 +0100</pubdate>
+        </item>
+        <item>
+            <title>Unidad-8</title>
+            <link>https://daw107.ieslossauces.es/ud8/02/02.json</link>
+            <description>
+                <![CDATA[ JSON mediante un xml (ejercicio 2) ]]>
+            </description>
+            <pubdate>Mon, 10 Jun 2024 10:30:00 +0100</pubdate>
         </item>
     </channel>
 </rss>

@@ -1,0 +1,93 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="datos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="proveedores">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="proveedor">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombreprov" type="xs:string"/>
+                                        <xs:element name="estado">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:integer">
+                                                    <xs:minInclusive value="0"/>
+                                                    <xs:maxInclusive value="100"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="ciudad" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="numprov" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="productos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="producto">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombreproducto" type="xs:string"/>
+                                        <xs:element name="color" type="xs:string"/>
+                                        <xs:element name="peso">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:float">
+                                                        <xs:minInclusive value="0"/>
+                                                        <xs:maxInclusive value="250"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="ciudad"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="numproducto"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="proyectos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="proyecto">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombreproyecto" type="xs:string"/>
+                                        <xs:element name="ciudad" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="numproyecto"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="suministros">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="suministra">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="numprov" type="xs:string"/>
+                                        <xs:element name="numproducto" type="xs:string"/>
+                                        <xs:element name="numproyecto" type="xs:string"/>
+                                        <xs:element name="cantidad">
+                                            <xs:simpleType>
+                                                <xs:restriction>
+                                                    <xs:minInclusive value="100"/>
+                                                    <xs:maxInclusive value="999"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

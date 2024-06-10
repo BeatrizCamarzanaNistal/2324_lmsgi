@@ -1,0 +1,23 @@
+<!ELEMENT datos (proveedores, productos, proyectos, suministros)>
+    <!ELEMENT proveedores (proveedor+)>
+        <!ELEMENT proveedor (nombreprov, estado, ciudad)>
+            <!ATTLIST proveedor numprov ID #IMPLIED>
+            <!ELEMENT nombreprov (#PCDATA)>
+            <!ELEMENT estado (#PCDATA)>
+            <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT productos (producto+)>
+        <!ELEMENT producto (nombreproducto, color, peso, ciudad)>
+        <!ATTLIST producto numproducto ID #IMPLIED>    
+            <!ELEMENT nombreproducto (#PCDATA)>
+            <!ELEMENT color (#PCDATA)>
+            <!ELEMENT peso (#PCDATA)>
+    <!ELEMENT proyectos (proyecto+)>
+        <!ELEMENT proyecto (nombreproyecto, ciudad)>
+        <!ATTLIST proyecto numproyecto ID #IMPLIED>    
+            <!ELEMENT nombreproyecto (#PCDATA)>
+    <!ELEMENT suministros (suministra+)>
+        <!ELEMENT suministra (numprov, numproducto, numproyecto, cantidad)>
+            <!ELEMENT numprov (#PCDATA)>
+            <!ELEMENT numproducto (#PCDATA)>
+            <!ELEMENT numproyecto (#PCDATA)>
+            <!ELEMENT cantidad (#PCDATA)>

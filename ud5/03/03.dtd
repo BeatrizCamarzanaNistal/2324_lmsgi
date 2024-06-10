@@ -1,0 +1,32 @@
+<!ELEMENT universidad (nombre+, fechaconstruccion+, pais+, carreras+, asignaturas+, alumnos+)>
+    <!ELEMENT nombre (#PCDATA)>
+        <!ATTLIST nombre year CDATA #REQUIRED>
+    <!ELEMENT fechaconstruccion (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT carreras (carrera+)>
+        <!ELEMENT carrera (nombre+, plan+, creditos+,centro+)>
+            <!ATTLIST carrera id ID #REQUIRED>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT plan (#PCDATA)>
+            <!ELEMENT creditos (#PCDATA)>
+            <!ELEMENT centro (#PCDATA)>
+    <!ELEMENT asignaturas (asignatura+)>
+        <!ELEMENT asignatura (nombre+, creditos_teoricos+, creditos_practicos+, trimestre?)>
+            <!ATTLIST asignatura id ID #REQUIRED>
+            <!ATTLIST asignatura titulacion CDATA #REQUIRED>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT creditos_teoricos (#PCDATA)>
+            <!ELEMENT creditos_practicos (#PCDATA)>
+            <!ELEMENT trimestre (#PCDATA)>
+    <!ELEMENT alumnos (alumno+)>
+        <!ELEMENT alumno (apellido1+,apellido2,nombre?,sexo?,estudios*)>
+            <!ATTLIST alumno id ID #REQUIRED>
+            <!ELEMENT apellido1 (#PCDATA)>
+            <!ELEMENT apellido2 (#PCDATA)>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT sexo (#PCDATA)>
+            <!ELEMENT estudios (carrera+, asignaturas+)>
+                <!ELEMENT carrera (#PCDATA)>
+                    <!ATTLIST carrera codigo ID #REQUIRED>
+                <!ELEMENT asignaturas (asignatura+)>
+                    <!ATTLIST asignatura codigo ID #REQUIRED>

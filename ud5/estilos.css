@@ -1,0 +1,68 @@
+/*común*/
+*{
+    
+    align-items: center;
+}
+/*code*/
+main{
+    color: black;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+code{
+    background-color: lightsteelblue;
+    padding: 5px;
+    border-color: black;
+    margin: 2% 2% 2% 5%; 
+}
+/*header*/
+header{
+    text-align: center;
+    display: block;
+    border-radius: 30px;
+    opacity: 30%;
+    text-transform: uppercase;
+    padding: 5px;
+}
+h1{
+    color: darkmagenta;
+}
+/*contenedor*/
+.contenedor{
+    background-color: black;
+    color: white;
+    width: 8%;
+    border-radius: 45px;
+    text-align: center;
+    margin: 0% 0% 0% 75%; 
+    padding: 1%;
+    width: 11%;
+}
+/*enlaces*/
+main>div{
+    align-items: center;
+    letter-spacing: 2px;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+}
+main>div>a{
+    display: inline-flex;
+    text-decoration: none;
+    width: fit-content;
+    color: lightseagreen;
+}
+ol{
+    display: block;
+    width: 28%;
+}
+li>div{
+    display: block;
+}
+/*imagenes*/
+img{
+    width: 89%;
+    margin: 2% 2% 2% 75%; 
+    align-items: center;
+}

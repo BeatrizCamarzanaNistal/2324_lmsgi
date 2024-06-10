@@ -1,0 +1,12 @@
+<title lang="en">Harry Potter</title>
+<price>29.99</price>
+<iva>36.2879</iva>
+<title lang="en">Everyday Italian</title>
+<price>30.00</price>
+<iva>36.3</iva>
+<title lang="en">Learning XML</title>
+<price>39.95</price>
+<iva>48.3395</iva>
+<title lang="en">XQuery Kick Start</title>
+<price>49.99</price>
+<iva>60.4879</iva>
